@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.background {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.44), rgba(0, 0, 0, 0.543)),
+		url("../image/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.right-background {
+	backdrop-filter: drop-shadow(4px 4px 10px blue);
+}
