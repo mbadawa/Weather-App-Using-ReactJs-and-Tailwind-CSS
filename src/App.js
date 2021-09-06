@@ -14,7 +14,7 @@ function App() {
 		var inputcityName = document.querySelector(".searchField").value;
 		axios
 			.get(
-				`http://api.openweathermap.org/data/2.5/weather?q=${inputcityName}&units=imperial&appid=a2fc69156caed07b26520a9387e1c681`
+				`http://api.openweathermap.org/data/2.5/weather?q=${inputcityName}&units=imperial&appid={APIKEY}`
 			)
 			.then(function (response) {
 				console.log(response);
